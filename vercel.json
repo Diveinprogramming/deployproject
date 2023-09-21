@@ -1,13 +1,13 @@
 {
-    "version":"4",
+    "version":"2",
     "bulid": [{
-        "src":"./index.js",
+        "src":"app.js",
      "use":"@now/node"}],
 
 
     "routes" :[{
         "src":"/(.*)",
-        "dest":"/"
+        "dest":"app.js"
     }]
 
     }
